@@ -348,9 +348,14 @@ function App() {
                 </div>
               </div>
               <div className={`flex gap-4 pt-4 border-t ${darkMode ? 'border-slate-800/80' : 'border-slate-100'}`}>
-                <a href={project.liveUrl} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs font-medium text-emerald-400 hover:underline">
+               
+               
+                {/* <a href={project.liveUrl} target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-xs font-medium text-emerald-400 hover:underline">
                   <ExternalLink size={14} /> Live Demo
-                </a>
+                </a> */}
+
+
+                
                 <a href={project.githubUrl} target="_blank" rel="noreferrer" className={`flex items-center gap-1.5 text-xs font-medium ${darkMode ? 'text-slate-300 hover:text-white' : 'text-slate-700 hover:text-slate-900'}`}>
                   <GitBranch size={14} /> Source Code
                 </a>
