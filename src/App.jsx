@@ -233,7 +233,7 @@ function App() {
             <a href="https://linkedin.com" target="_blank" rel="noreferrer" className={`p-2 rounded-lg ${darkMode ? 'bg-slate-900 border-slate-800 text-slate-300' : 'bg-slate-100 border-slate-200 text-slate-700'} border hover:text-emerald-400 hover:scale-110 transition-all`}>
               <Globe size={20} />
             </a>
-            <a href="mailto:your_email@gmail.com" className={`p-2 rounded-lg ${darkMode ? 'bg-slate-900 border-slate-800 text-slate-300' : 'bg-slate-100 border-slate-200 text-slate-700'} border hover:text-emerald-400 hover:scale-110 transition-all`}>
+            <a href="mailto:junaidalam0264@gmail.com" className={`p-2 rounded-lg ${darkMode ? 'bg-slate-900 border-slate-800 text-slate-300' : 'bg-slate-100 border-slate-200 text-slate-700'} border hover:text-emerald-400 hover:scale-110 transition-all`}>
               <Mail size={20} />
             </a>
           </div>
@@ -368,7 +368,7 @@ function App() {
           Have an opportunity or want to connect? Drop me an email or find me on LinkedIn!
         </p>
         <div className="mt-8 flex justify-center gap-4">
-          <a href="mailto:your_email@gmail.com" className="px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-sm transition-all shadow-lg shadow-emerald-500/20 hover:scale-105">
+          <a href="mailto:junaidalam0264@gmail.com" className="px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-sm transition-all shadow-lg shadow-emerald-500/20 hover:scale-105">
             Mail Me Directly
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noreferrer" className={`px-6 py-3 rounded-xl border ${darkMode ? 'border-slate-700 bg-slate-900 text-slate-200' : 'border-slate-300 bg-slate-50 text-slate-800'} hover:border-emerald-400/50 font-medium text-sm transition-all hover:scale-105`}>
