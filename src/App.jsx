@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Mail, ExternalLink, Code2, Globe, Terminal, User, Briefcase, GraduationCap, Award, Send, Sun, Moon, Menu, X, Database, Wrench, Sparkles, CheckCircle, ArrowRight, Phone, MapPin } from 'lucide-react';
+import { Mail, ExternalLink, Code2, Globe, Terminal, User, Briefcase, GraduationCap, Award, Send, Sun, Moon, Menu, X, Database, Wrench, Sparkles, CheckCircle, ArrowRight, Phone, MapPin, GitBranch } from 'lucide-react';
 
 function App() {
   
@@ -31,7 +31,7 @@ function App() {
       description: "A highly responsive modern portfolio template built to showcase projects, technical skills, and professional resume details.",
       tech: ['React.js', 'Tailwind CSS', 'Vite'],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/iqjas43"
     }
   ];
 
@@ -92,13 +92,6 @@ function App() {
   return (
     <div 
       className={`${darkMode ? 'bg-slate-950 text-slate-100' : 'bg-white text-slate-900'} min-h-screen font-sans selection:bg-emerald-500 selection:text-slate-950 relative cursor-default transition-colors duration-300`}
-      onMouseMove={(e) => {
-        if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON') {
-          setCursorText('');
-        } else {
-          setCursorText('');
-        }
-      }}
     >
       
       {/* Super Smooth Floating Label Cursor */}
@@ -257,7 +250,7 @@ function App() {
             <p className={`text-xs ${darkMode ? 'text-slate-300' : 'text-slate-600'} mt-1`}>Technologies</p>
           </div>
           <div className={`p-6 rounded-2xl ${darkMode ? 'bg-slate-900/60 border-slate-800/80 text-slate-100' : 'bg-white border-slate-200 text-slate-900 shadow-lg'} border backdrop-blur-sm col-span-2 text-center hover:border-cyan-400/40 hover:-translate-y-1 transition-all duration-300`}>
-            <h3 className="text-xl font-bold text-cyan-400">BSC IT Graduate</h3>
+            <h3 className="text-xl font-bold text-cyan-400">B.Sc. IT Graduate</h3>
             <p className={`text-xs ${darkMode ? 'text-slate-300' : 'text-slate-600'} mt-1`}>Mumbai University</p>
           </div>
         </div>
@@ -275,7 +268,7 @@ function App() {
               <User size={20} /> Professional Summary
             </h3>
             <p className={`${darkMode ? 'text-slate-300' : 'text-slate-700'} leading-relaxed text-sm md:text-base`}>
-              I am a dedicated frontend developer with a BSC IT degree from Mumbai University, specializing in building modern web interfaces. I focus on writing clean, scalable code and turning UI/UX designs into fully responsive web applications.
+              I am a dedicated frontend developer with a B.Sc. IT degree from Mumbai University, specializing in building modern web interfaces. I focus on writing clean, scalable code and turning UI/UX designs into fully responsive web applications.
             </p>
           </div>
           <div className={`p-8 rounded-3xl ${darkMode ? 'bg-slate-900/40 border-slate-800' : 'bg-white border-slate-200 shadow-lg'} border space-y-4 hover:border-teal-400/30 transition-all duration-300`}>
@@ -359,7 +352,7 @@ function App() {
                   <ExternalLink size={14} /> Live Demo
                 </a>
                 <a href={project.githubUrl} target="_blank" rel="noreferrer" className={`flex items-center gap-1.5 text-xs font-medium ${darkMode ? 'text-slate-300 hover:text-white' : 'text-slate-700 hover:text-slate-900'}`}>
-                  <Github size={14} /> Source Code
+                  <GitBranch size={14} /> Source Code
                 </a>
               </div>
             </div>
