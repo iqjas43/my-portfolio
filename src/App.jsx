@@ -235,10 +235,10 @@ function App() {
 
           <div className="flex items-center gap-4 pt-2">
             <a href="https://github.com/iqjas43" target="_blank" rel="noreferrer" className={`p-2 rounded-lg ${darkMode ? 'bg-slate-900 border-slate-800 text-slate-300' : 'bg-slate-100 border-slate-200 text-slate-700'} border hover:text-emerald-400 hover:scale-110 transition-all`}>
-              <Github size={20} />
+              <Code2 size={20} />
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noreferrer" className={`p-2 rounded-lg ${darkMode ? 'bg-slate-900 border-slate-800 text-slate-300' : 'bg-slate-100 border-slate-200 text-slate-700'} border hover:text-emerald-400 hover:scale-110 transition-all`}>
-              <Linkedin size={20} />
+              <Globe size={20} />
             </a>
             <a href="mailto:your_email@gmail.com" className={`p-2 rounded-lg ${darkMode ? 'bg-slate-900 border-slate-800 text-slate-300' : 'bg-slate-100 border-slate-200 text-slate-700'} border hover:text-emerald-400 hover:scale-110 transition-all`}>
               <Mail size={20} />
