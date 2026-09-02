@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code2, Database, Wrench, User, GraduationCap, Menu, X, Sun, Moon } from 'lucide-react';
-
+import { Mail, ExternalLink, Code2, Globe, Terminal, User, Briefcase, GraduationCap, Award, Send } from 'lucide-react';``
 function App() {
   
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
