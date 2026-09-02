@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Mail, ExternalLink, Code2, Globe, Terminal, User, Briefcase, GraduationCap, Award, Send, Sun, Moon } from 'lucide-react';
+import { Mail, ExternalLink, Code2, Globe, Terminal, User, Briefcase, GraduationCap, Award, Send, Sun, Moon, Menu, X } from 'lucide-react';
 
 function App() {
   
